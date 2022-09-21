@@ -1,0 +1,133 @@
+body {
+    background-color: #F3F5FC;
+    
+}
+header {
+    width: 100%;
+    height: 130px;
+    
+}
+header img {
+    margin-top: 45px;
+    margin-left: 40px;
+    width: 90px;
+    height: 25%;
+}
+main {
+    display: flex;
+}
+.ingreso_mensaje {
+    background-color: #F3F5FC;
+    
+
+    width: 50%;
+    height: 100%;
+    text-align:left;
+    margin-left: 75px;
+}
+.input_texto1 {
+    background-color: #F3F5FC;
+    /*color: #666666;*/
+    /*padding: 1em;*/
+    border-radius: 10px;
+    border: none;    
+    outline: none;
+    font-family: sans-serif;
+    color:#0A3871;
+    font-size:20px ;
+    
+}
+.salida_mensaje {
+    background-color: #F3F5FC;
+    width: 25%;
+    height: 100%;
+    text-align:left;
+    margin-left: 200px;
+}
+
+.input_texto2 {    
+    background-image: url(imagenes/MuñecoImagen_encriptador.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    /*color: #666666;*/
+    /*padding: 1em;*/
+    border-radius: 25px;
+    border: none;    
+    outline: none;
+    font-family: sans-serif;
+    color:#0A3871;
+    font-size:20px ;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+
+    background-color: #F3F5FC;
+    width: 260px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: Verdana;
+    font-size: 12px;
+    border: 1px solid #0A3871; 
+    
+}
+.boton_encriptar {
+    background-color: #0A3871;
+    color:white; 
+    margin-left: -200px;
+    margin-right: 25px;
+}
+
+footer {
+
+    
+    text-align: center; 
+    margin-top: 45px;
+    background-color: #0A3871;
+    font-family: sans-serif;
+    
+    font-size: 14px;
+    padding-bottom: 20px;    
+}
+
+.imggit {
+
+
+   
+    opacity: 0.50;
+    margin-top: 25px;
+    max-width: 1.90%;
+    max-height: 4%;
+}
+
+
+.imgin {
+    opacity: 0.50;
+    margin-top: 25px;
+    max-width: 2%;
+    max-height: 4%;
+}
+
+
+footer div {
+padding-bottom: 1px;
+}
+
+a {
+    
+    
+    color: black;
+    
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}

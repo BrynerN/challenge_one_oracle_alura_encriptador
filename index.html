@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador BN</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo_Alura.png" alt="Logo Alura">
+    </header>    
+    <main>        
+        <section class="ingreso_mensaje">            
+            <textarea class="input_texto1" cols="50" rows="20" placeholder="Ingrese el texto aquí..."></textarea>
+            <div>
+                <button class="boton_encriptar" onclick= "btnencriptar()">Encriptar</button>
+                <button onclick= "btndesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="salida_mensaje">
+            <textarea class="input_texto2" cols="35" rows="20" placeholder=""></textarea>
+            <div>
+                <button onclick= "copiado()">Copiar</button>
+            </div>
+        </section>
+    </main> 
+
+    <footer>
+            <div>
+            <img class="imggit" src="imagenes/pngegg.png">
+            <img class="imgin" src="imagenes/pngegg (1).png">
+            
+            </div>
+            <p class="copyr">&copy Copyright Encriptador Alura - Septiembre 2022</p>
+            <a href="https://www.linkedin.com/in/bryner-navarijo?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bm%2FT%2BQDBZR0CaUBKEhL6qvg%3D%3D">by Bryner Navarijo</a>
+
+    </footer>
+
+    <script src="script.js"> </script>
+
+</body>
+</html>
