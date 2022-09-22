@@ -92,7 +92,7 @@ footer {
     background-color: #0A3871;
     font-family: sans-serif;
     
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 20px;    
 }
 
@@ -117,15 +117,20 @@ footer {
 
 footer div {
 padding-bottom: 1px;
+
+}
+
+p {
+    color:#F3F5FC;
+
 }
 
 a {
-    
-    
-    color: black;
-    
+    color:#F3F5FC;
     text-decoration: none;
 }
+
+
 
 a:hover {
     text-decoration: underline;
