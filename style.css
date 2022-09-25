@@ -42,8 +42,13 @@ main {
     background-color: #F3F5FC;
     width: 25%;
     height: 100%;
-    text-align:left;
+    text-align:center;
     margin-left: 200px;
+}
+
+
+.boton_copiar {
+    margin-left: 15px;
 }
 
 .input_texto2 {    
@@ -133,4 +138,61 @@ a {
 a:hover {
     text-decoration: underline;
     font-weight: bold;
+}
+
+@media screen and (max-width:480px){
+
+   .boton_copiar {
+    display: none;
+   }
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    body {
+        width: auto;
+    }
+
+    header {
+        width: auto;
+                
+    }
+    .ingreso_mensaje, .salida_mensaje {
+    width: auto;
+    margin-left: 20px;
+
+    }
+
+    
+
+    .boton_encriptar {
+        margin: 0 0 0 0;
+    }
+    .salida_mensaje {
+       
+            margin-top: 25px;
+           
+            
+
+    }
+
+    .imggit {
+
+        
+        max-width: 5%;
+       
+    }
+    
+    
+    .imgin {
+       
+        max-width: 5%;
+       
+    }
+    
+
 }
