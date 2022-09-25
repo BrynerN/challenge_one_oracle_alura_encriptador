@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     background-color: #F3F5FC;
     
 }
@@ -98,20 +99,17 @@ footer {
 
 .imggit {
 
-
-   
-    opacity: 0.50;
     margin-top: 25px;
-    max-width: 1.90%;
-    max-height: 4%;
+    max-width: 1.5%;
+   
 }
 
 
 .imgin {
-    opacity: 0.50;
     margin-top: 25px;
-    max-width: 2%;
-    max-height: 4%;
+    margin-left: 5px;
+    max-width: 1.5%;
+   
 }
 
 
